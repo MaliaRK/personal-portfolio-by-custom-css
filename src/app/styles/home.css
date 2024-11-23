@@ -70,13 +70,32 @@
 }
 
 #upperdiv {
-    background-color: #06b6d4;
+    background-color: #00FFFF;
     position: absolute;
     width: 177px;
     height: 125px;
     margin-bottom: 56px;
     border-top-left-radius: 9999px;
     border-top-right-radius: 9999px;
+    z-index: 30;
+}
+
+#myPic {
+    position: absolute;
+    bottom: 33%;
+    margin-left: 16px;
+    height: 208px;
+    z-index: 40;
+}
+
+#lowerdiv {
+    background-color: #00FFFF;
+    position: absolute;
+    width: 168px;
+    height: 56px;
+    margin-bottom: -128px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
     z-index: 30;
 }
 
@@ -100,5 +119,9 @@
     .homeProfile {
         margin-top: 70%;
         order: 1;
+    }
+
+    #myPic {
+        bottom: 64%;
     }
 }

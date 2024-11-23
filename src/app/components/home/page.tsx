@@ -38,8 +38,8 @@ const Home = () => {
             <div className='homeProfile'>
                 <FiOctagon style={{fontSize: '220px', zIndex: 10, borderRadius: '4px', color: 'cyan', boxShadow: 'inset 0 4px 20px rgba(0, 255, 255, 0.7)'}}/>
                 <div id='upperdiv'></div>
-                <Image src="/mypic1.png" alt="myPic" height={0} width={180} className='absolute bottom-[64%] md:bottom-[33%] ml-4 h-52 z-40 ' data-aos="fade-up"></Image>
-                <div style={{ backgroundColor: 'cyan'}} className='absolute w-[168px] h-14 -mb-32 rounded-b-full z-30'></div>
+                <Image src="/mypic1.png" alt="myPic" height={0} width={180} data-aos="fade-up" id='myPic'></Image>
+                <div id='lowerdiv'></div>
             </div>
         </div>
     </>   
