@@ -18,7 +18,7 @@ const Header = () => {
           <Link href='/components/home' target='_blank'><li>Home</li></Link>
           <Link href='/components/about' target='_blank'><li>About</li></Link>
           <Link href='/components/contact' target='_blank'><li>Contact</li></Link>
-          <li>Skills</li>
+          <a href="#skills"><li>Skills</li></a>
           <a href="#projects"><li>Projects</li></a>
         </ul>
         <div id='hamMenu'>
@@ -28,7 +28,7 @@ const Header = () => {
                   <Link href='/components/home' target='_blank'><li>Home</li></Link>
                   <Link href='/components/about' target='_blank'><li>About</li></Link>
                   <Link href='/components/contact' target='_blank'><li>Contact</li></Link>
-                  <li>Skills</li>
+                  <a href="#skills"><li>Skills</li></a>
                   <a href="#projects"><li>Projects</li></a>
               </ul>
               )
