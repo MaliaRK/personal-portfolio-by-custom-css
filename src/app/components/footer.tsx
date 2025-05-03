@@ -1,12 +1,12 @@
-import React from 'react'
-import '@/app/styles/footer.css'
+// import React from 'react'
+// import '@/app/styles/footer.css'
 
-const Footer = () => {
-  return (
-    <div className='footer'>
-        Made by Malia Raees✨✨
-    </div>
-  )
-}
+// const Footer = () => {
+//   return (
+//     <div className='footer'>
+//         Made by Malia Raees✨✨
+//     </div>
+//   )
+// }
 
-export default Footer
+// export default Footer

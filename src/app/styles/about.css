@@ -79,7 +79,13 @@ h2 {
     border-radius: 5px;
 }
 
-@media (max-width: 600px) {
+/* @media (min-width: 100px) and (max-width: 351px) {
+    .skills {
+        margin-top: 5%;
+    }
+} */
+
+@media (min-width: 351px) and  (max-width: 600px) {
     .about {
         margin: 0 4px;
     }
@@ -91,9 +97,13 @@ h2 {
         gap: 3%;
     }
 
+    .skills {
+        margin-top: 85%;
+    }
+
     .skillsList {
         display: flex;
-        flex-direction: column;
+        flex-direction: column
     }
 
     #workBtn {
@@ -107,6 +117,10 @@ h2 {
         margin-top: 5%;
         padding-bottom: 43%;
         gap: 3%;
+    }
+
+    .skills {
+        margin-top: 55%;
     }
 
     .skillsList {
