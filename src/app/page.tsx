@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './components/home/page'
+import Home from './home/page'
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import Header from './components/header';
 

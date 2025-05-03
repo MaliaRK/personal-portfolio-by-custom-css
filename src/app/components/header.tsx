@@ -15,21 +15,21 @@ const Header = () => {
       <div id='header'>
         <h3>Portfolio.</h3>
         <ul id='headerUl'>
-          <Link href='/components/home' target='_blank'><li>Home</li></Link>
-          <Link href='/components/about' target='_blank'><li>About</li></Link>
-          <Link href='/components/contact' target='_blank'><li>Contact</li></Link>
-          <a href="#skills"><li>Skills</li></a>
+          <a href='/'><li>Home</li></a>
+          <a href='#about'><li>About</li></a>
           <a href="#projects"><li>Projects</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href='#contact'><li>Contact</li></a>
         </ul>
         <div id='hamMenu'>
           <FaHamburger id='hamburger' onClick={handleClick}/>
           {showNavbar && (
               <ul id="navUl">
-                  <Link href='/components/home' target='_blank'><li>Home</li></Link>
-                  <Link href='/components/about' target='_blank'><li>About</li></Link>
-                  <Link href='/components/contact' target='_blank'><li>Contact</li></Link>
-                  <a href="#skills"><li>Skills</li></a>
-                  <a href="#projects"><li>Projects</li></a>
+                <a href='/'><li>Home</li></a>
+                <a href='#about'><li>About</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href='#contact'><li>Contact</li></a>
               </ul>
               )
           }

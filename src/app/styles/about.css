@@ -9,6 +9,7 @@
 .aboutMe {
     text-align: center;
     margin: 0 15%;
+    scroll-margin-top: 100px;
 }
 
 h2 {
@@ -25,6 +26,7 @@ h2 {
     margin: 0 3% 3% 3%;
     padding-bottom: 8%;
     gap: 5%;
+    scroll-margin-top: 170px;
 }
 
 #projectDetail {
@@ -57,7 +59,8 @@ h2 {
 }
 
 .skills {
-    margin: 0 0 2% 4%;
+    margin: 10% 0 2% 4%;
+    scroll-margin-top: 100px;
 }
 
 .skillsList {
