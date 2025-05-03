@@ -9,8 +9,6 @@ import { TypeAnimation } from 'react-type-animation'
 import '@/app/styles/home.css'
 import About from '../about/page'
 import Contact from '../contact/page'
-import Button from '../components/button';
-
 
 
 const Home = () => {

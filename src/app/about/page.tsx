@@ -70,12 +70,11 @@ const About = () => {
           <div id='projectDetail'>
             <Image src="/invertedcomas.png" alt='comas' width={15} height={15} id='comaPic'></Image>
             <p>I developed the Panacloud company website using TypeScript. The site features key business sections including
-              Why Us, Services, Portfolio, and Our Skills - showcasing the company's expertise through a clean, professional interface. With additional pages for Process,
+              Why Us, Services, Portfolio, and Our Skills - showcasing the company&apos;s expertise through a clean, professional interface. With additional pages for Process,
               Reviews, and Contact Us, this project demonstrates my ability to build structured, conversion-focused business websites with modern tech stacks.
             </p>
             <div>
               <Link href={"https://final-assignment-company-portfolio.vercel.app/"} target='_blank' className='projectDiv'>
-                {/* <Image src="/next-dot-js.svg" alt='eCommerce' width={10} height={80} id='projectPic'></Image> */}
                 <Image src="/panacloud.png" alt='Blogging Website' width={160} height={480} id='projectPic'></Image>
                 <h3>Panacloud Website</h3>
                 </Link>
